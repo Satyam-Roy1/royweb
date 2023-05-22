@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+}
+nav{
+	height: 10vh;
+	width: 100%;
+	background-color: rgb(40, 202, 450);
+	display: flex;
+	justify-content: flex-end;
+	position: sticky;
+
+
+}
+ul{
+	display: flex;
+	align-items: center;
+}
+ul li{
+	list-style: none;
+	margin-left: 20px;
+	margin-right: 50px;
+	font-size: large;
+	cursor: pointer;
+
+}
+/*.main{
+	height:700px;
+	width: 100%;
+	background-color: grey;
+}*/
+.main{
+	height: 642px;
+	width: 100%;
+	background-color: ;
+	overflow: hidden;
+}
+.slider{
+	display:flex;
+	height:700px;
+	width: 300%;
+	position:relative;
+	animation-name: slide-animation;
+    animation-duration: 10s;
+	animation-iteration-count: infinite;
+	
+
+
+
+}
+.slide{
+	height: 100%;
+	width: 100%;
+	background-color: grey;
+
+
+}
+.slide img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	
+} 
+
+
+@keyframes slide-animation{
+	0%{transform: translate(0px);}
+	25%{transform: translate(-100px);}
+	50%{transform: translate(-1540px);}
+	75%{transform: translate(-3080px);}
+	100%{transform: translate(0px);}
+
+	
+ }
+ .down_view{
+ 	height: 800px;
+ 	width:100%;
+ 	background-color:red;
+ 	background-image: url("C:/Users/SACHIN/Downloads/psychedelic-paper-shapes-with-copy-space.jpg");
+ 	background-position: cover;
+ 	background-repeat: no-repeat;
+
+
+
+ }
+ .down_view_circle{
+ 	height: 50px;
+ 	width: 30%;
+ 	margin: 0 auto;
+ 	display: flex;
+
+ }
+ #heading1{
+ 	padding-top: 50px;
+ 	padding-left: 10%;
+ }
+ 
+ .circle{
+ 	height: 500px;
+ 	width: 100%;
+ 	border-radius: 50%;
+ 	background-color:;
+ 	margin-top: 70px;
+
+
+ }
+ .heading_and_paragraph{
+ 	height: 200px;
+ 	width: 80%;
+ 	background-color: ;
+ 	display: flex;
+ 	justify-content:center;
+ 	align-items: center;
+ 	margin-top: 540px;
+ 	margin-left: 12%;
+
+ }
+ #footer{
+ 	height: 300px;
+ 	width: 100%;
+ 	background-color: grey;
+ 	display: flex;
+ 	justify-content: center;
+ 	text-align: center;
+ 	
+
+ }
+ #footerheading{
+ 	margin-top: 60px;
+ 	margin-left: 200px
+ 	
+
+ }
+ .footer_text{
+ 	height: 200px;
+ 	width:100%;
+ 	background-color:palegreen;
+ 	margin-top: 20px;
+ }
+ .button_area{
+ 	height: 50px;
+ 	width: 40%;
+ 	background-color: ;
+ 	margin: 0 auto;
+ 	margin-top: 20px;
+ 	align-items: center;
+ 	
+ }
+ button{
+ 	left: 50%;
+ 	top: 50%;
+ 	height: 60px;
+ 	width: 30%;
+ 	background-color:#6454ff;
+ 	color: red;
+ 	font-size: 1.3rem;
+ 	border-radius: 0.4rem;
+ 	box-shadow: 2px 2px  50px cyan;
+ 	font-family:sans-serif;
+ }
+a{
+	text-decoration:none;
+	padding: 1rem 2rem;
+	color: white;
+	border-radius: 0.5px;
+
+}
+button:active{
+	background-color: red;
+}
+button:hover{
+	background-color: red;
+}
+
+
+		
+
+
+
